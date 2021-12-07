@@ -1,0 +1,236 @@
+
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans serif;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-between; /*прижимает содержимое к краям */
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+  display: flex;
+}
+
+.header .logo {
+    padding-left: 69px;
+    padding-top: 10px;
+}
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .menu ul li {
+  margin: 20px 10px;
+}
+
+.header .menu ul a {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+
+.phone {
+  font-size: 110%;
+  color: #333;
+  padding-right: 40px;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+.header-text {
+    margin-left: auto;
+    width: 23em;
+    padding: 44px;
+}
+
+.link{
+    background-color: #dde0dd;
+    border: none;
+    color: #1f1e1e;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.button {
+    background-color: #f7801a;
+    padding: 15px;
+    display: inline-block;
+}
+
+.background {
+    width: 95%;
+    height: 386px;
+    background: url(../images/1_7.png), url(../images/vektornyi_smart-obekt.png);
+    background-size: 417px 334px, cover;
+    background-repeat: no-repeat;
+    background-position: 1px bottom, 0 0;
+}
+
+.text {
+   text-align: center;
+   padding: 38px;
+}
+.colortext {
+    color: #ff7600;
+}
+
+.fixed_text_3 {
+    position:relative;
+    top:-8px;
+    border-bottom:1px #FF0000 solid; /* цвет зачеркивающей линии */
+    display:inline;
+}
+.fixed_text_3 span {
+    position:relative;
+    top:8px;
+}
+
+.blocktext {
+    margin-right: auto;
+    width: 30em;
+    text-align: center;
+    font-size: 16px;
+}
+
+.numberCircle {
+    padding: 23px;
+}
+
+
+.images{
+    margin-left: auto;
+    padding: 41px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    font-size: 100%;
+
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: .75rem;
+  text-align: center;
+  font-size: 94px;
+}
+
+.footer-logo{
+    margin-top: -56px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 13px;
+  color: #292828;
+}
+
+@media screen and (max-width: 576px) {
+  .header  {
+    flex-direction: column;
+  }
+  .header .menu ul {
+    flex-direction: column;
+    align-self: center;
+  }
+  .header .menu ul li {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header  {
+    flex-direction: column;
+  }
+  .header .menu ul {
+    flex-direction: column;
+    align-self: center;
+  }
+  .header .menu ul li {
+    margin: 5px;
+  }
+}
+
+ @media screen and (max-width: 900px) {
+  .phone {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+   .header-content {
+     align-items: center;
+     display: block;
+
+   }
+}
+
+@media only screen and (max-width : 768px){
+   .header-content {
+     align-items: center;
+     display: block;
+   }
+}
+
+@media only screen and (max-width : 768px) {
+   .content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+   }
+}
+
+@media only screen and (max-width : 992px) {
+   .content {
+     align-items: center;
+     display: block;
+
+   }
+}
+
+@media only screen and (max-width : 576px){
+   .content {
+     align-items: center;
+     display: block;
+   }
+}
+
+@media screen and (max-width: 768px) {
+  .footer  {
+    display: block;
+  }
+  .footer-text {
+    align-self: center;
+  }
+  .footer-logo {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,300 @@
+@media (min-width: 768px) {
+  table.shop_table_responsive tbody tr td,
+  table.shop_table_responsive tbody tr th {
+    text-align: left; }
+  .site-header {
+    padding-top: 2.617924em;
+    padding-bottom: 0; }
+    .site-header .site-branding {
+      display: block;
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      clear: both; }
+      .site-header .site-branding img {
+        height: auto;
+        max-width: 143px;
+        max-height: none; }
+  .woocommerce-active .site-header .site-branding {
+    width: 73.9130434783%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .woocommerce-active .site-header .site-search {
+    width: 21.7391304348%;
+    float: right;
+    margin-right: 0;
+    clear: none; }
+  .woocommerce-active .site-header .main-navigation {
+    width: 73.9130434783%;
+    float: left;
+    margin-right: 4.347826087%;
+    clear: both; }
+  .woocommerce-active .site-header .site-header-cart {
+    width: 21.7391304348%;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 0; }
+  .magazin-secondary-navigation .site-header .site-branding {
+    width: 39.1304347826%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .magazin-secondary-navigation .site-header .secondary-navigation {
+    width: 56.5217391304%;
+    float: right;
+    margin-right: 0; }
+  .magazin-secondary-navigation.woocommerce-active .site-header .site-branding {
+    width: 21.7391304348%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .magazin-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+    width: 47.8260869565%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .site-branding .site-description {
+    margin-bottom: 0;
+    display: block; }
+  .site-branding,
+  .site-search,
+  .site-header-cart,
+  .site-logo-anchor,
+  .site-logo-link,
+  .custom-logo-link {
+    margin-bottom: 1.41575em; }
+  .site-header .subscribe-and-connect-connect {
+    float: right;
+    margin-bottom: 1em; }
+    .site-header .subscribe-and-connect-connect .icons {
+      list-style: none;
+      margin: 0; }
+      .site-header .subscribe-and-connect-connect .icons a {
+        font-size: 1em !important; }
+      .site-header .subscribe-and-connect-connect .icons li {
+        margin: 0 0 0 0.5407911001em !important;
+        display: inline-block; }
+  .col-full {
+    max-width: 66.4989378333em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.617924em;
+    box-sizing: content-box; }
+    .col-full::before, .col-full::after {
+      content: '';
+      display: table; }
+    .col-full::after {
+      clear: both; }
+    .col-full:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  .site-content::before, .site-content::after {
+    content: '';
+    display: table; }
+  .site-content::after {
+    clear: both; }
+  .content-area {
+    width: 73.9130434783%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .widget-area {
+    width: 21.7391304348%;
+    float: right;
+    margin-right: 0; }
+  .right-sidebar .content-area {
+    width: 73.9130434783%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .right-sidebar .widget-area {
+    width: 21.7391304348%;
+    float: right;
+    margin-right: 0; }
+  .left-sidebar .content-area {
+    width: 73.9130434783%;
+    float: right;
+    margin-right: 0; }
+  .left-sidebar .widget-area {
+    width: 21.7391304348%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .magazin-full-width-content .content-area {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
+  .content-area,
+  .widget-area {
+    margin-bottom: 2.617924em; }
+  /**
+	 * Full width & homepage template
+	 */
+  .page-template-template-fullwidth-php .content-area,
+  .page-template-template-homepage-php .content-area {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
+
+img {
+  border-radius: 3px; }
+
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  display: inline-block;
+  border-radius: 0; }
+
+
+@media (max-width: 1366px) {
+	.blog-title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.blog-post__category {
+		font-size: 14px;
+	}
+
+	.sub-form {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.content__container {
+		display: block;
+	}
+
+	.posts {
+		margin-bottom: 50px;
+	}
+
+	.popular-posts__list {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.popular-posts__item {
+		flex-grow: 1;
+		max-width: 30%;
+	}
+
+	.popular-post__article {
+		border-bottom: 1px solid transparent;
+	}
+
+	.sub-form {
+		padding: 0 20%;
+		display: flex;
+		align-items: center;
+	}
+	
+	.sub-form__input {
+		margin-bottom: 0;
+		margin-right: 20px;
+	}
+
+	.contacts {
+		padding: 70px 0;
+	}
+
+	.contacts__left {
+		padding-left: 0;
+	}
+
+	.contacts__right {
+		padding-right: 0;
+	}
+
+	.post-content__container {
+		display: block;
+	}
+
+	.post-wrapper {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	:root {
+		--grid-gap: 30px;
+	}
+
+	.blog-post--main {
+		height: auto;
+	}
+
+	.post-grid {
+		display: block;
+	}
+	.post-grid__item:not(:last-child) {
+		margin-bottom: var(--grid-gap);
+	}
+
+	.popular-posts__list {
+		display: block;
+	}
+
+	.popular-posts__item {
+		max-width: none;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.sub-form {
+		padding: 0 5%;
+	}
+
+	.contacts__container {
+		display: block;
+	}
+
+	.contacts__left {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.contacts__right {
+		width: 100%;
+	}
+
+	.post {
+		max-width: none;
+	}
+
+	.post-links {
+		max-width: none;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.post-links__link--prev {
+		margin-bottom: 20px;
+	}
+
+	.post-banner__container {
+		border-radius: 0;
+	}
+}
+
+@media (max-width: 375px) {
+	.sub-form {
+		padding: 0;
+		display: block;
+	}
+
+	.sub-form__input {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.contacts-form-wrapper {
+		padding: 30px;
+	}
+}
